@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Survey</title>
+</head>
+
+<body>
+    <form action="results.html">
+        <h1>Clarusway Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+
+        <div>
+            <label for="fname">Name</label>
+            <input type="text" name="first_name" id="fname" placeholder="Enter your name">
+            <br>
+
+            <label for="sname">Surname</label>
+            <input type="text" name="sur_name" id="sname" placeholder="Enter your surname">
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="Email" id="email" placeholder="user@clarusway.com">
+            <br>
+
+        </div>
+
+        <p>Which option best describs your current role?</p>
+
+        <div>
+            <select name="current_role" id="role">
+                <option value="none" disabled selected>Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Full time job">Full time job</option>
+                <option value="Part time job">Part time job</option>
+                <option value="Full time learner">Full time learner</option>
+                <option value="Not to say">Not to say</option>
+            </select>
+        </div>
+
+        <p>Would you reccommend Clarusway to a friend?</p>
+
+        <div>
+            <input type="radio" name="comment" id="com1" value="Definitely, Yes">
+            <label for="com1">Definitely, Yes</label>
+            <br>
+            <input type="radio" name="comment" id="com2" value="Maybe">
+            <label for="com2">Maybe</label>
+            <br>
+            <input type="radio" name="comment" id="com3" value="Not sure">
+            <label for="com3">Not sure</label>
+            <br>
+            <input type="radio" name="comment" id="com4" value="Definitely, No">
+            <label for="com4">Definitely, No</label>
+
+        </div>
+
+        <p>What is your favorite feature of Clarusway?</p>
+
+        <div>
+            <select name="feature" id="role">
+                <option value="none" disabled selected>Select an option</option>
+                <option value="Courses">Courses</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Mentors">Mentors</option>
+
+            </select>
+        </div>
+
+        <p>Would you like to see improved? (Check all that apply)</p>
+
+        <div>
+            <input type="checkbox" name="comment" id="com5" value="Front-end Projects">
+            <label for="com5">Front-end Projects</label>
+            <br>
+            <input type="checkbox" name="comment" id="com6" value="Back-end Projects">
+            <label for="com6">Back-end Projects</label>
+            <br>
+            <input type="checkbox" name="comment" id="com7" value="Data Science">
+            <label for="com7">Data Science</label>
+            <br>
+            <input type="checkbox" name="comment" id="com8" value="Additional Courses">
+            <label for="com8">Additional Courses</label>
+
+        </div>
+
+        <p>Any comments or suggestions?</p>
+
+        <div>
+            <textarea name="coms" id="coms" placeholder="Enter your comment here. Thanks for your comments"></textarea>
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>
